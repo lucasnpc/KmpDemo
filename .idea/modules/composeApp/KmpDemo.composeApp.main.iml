@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="FacetManager">
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="5" platform="JVM 11" allPlatforms="JVM [11]" useProjectSettings="false" isTestModule="false" externalProjectId=":composeApp" isHmppProject="true" pureKotlinSourceFolders="$MODULE_DIR$/../../../composeApp/src/iosX64Main/kotlin;/Users/lucasnpc/Projects/KmpDemo/composeApp/src/debug/java;/Users/lucasnpc/Projects/KmpDemo/composeApp/build/generated/compose/resourceGenerator/kotlin/iosSimulatorArm64MainResourceAccessors;/Users/lucasnpc/Projects/KmpDemo/composeApp/src/debug/kotlin;/Users/lucasnpc/Projects/KmpDemo/composeApp/build/generated/compose/resourceGenerator/kotlin/iosX64MainResourceAccessors;/Users/lucasnpc/Projects/KmpDemo/composeApp/src/androidDebug/kotlin;/Users/lucasnpc/Projects/KmpDemo/composeApp/build/generated/compose/resourceGenerator/kotlin/androidDebugResourceAccessors;/Users/lucasnpc/Projects/KmpDemo/composeApp/src/iosSimulatorArm64Main/kotlin;/Users/lucasnpc/Projects/KmpDemo/composeApp/src/iosArm64Main/kotlin;/Users/lucasnpc/Projects/KmpDemo/composeApp/build/generated/compose/resourceGenerator/kotlin/iosArm64MainResourceAccessors">
+        <dependsOnModuleNames>:composeApp:commonMain</dependsOnModuleNames>
+        <sourceSets>
+          <sourceSet>KmpDemo.composeApp.commonMain</sourceSet>
+        </sourceSets>
+        <newMppModelJpsModuleKind>COMPILATION_AND_SOURCE_SET_HOLDER</newMppModelJpsModuleKind>
+        <compilerSettings />
+        <compilerArguments>
+          <flagArguments>
+            <flagArg name="allowUnstableDependencies" arg="true" />
+          </flagArguments>
+          <stringArguments>
+            <stringArg name="jvmTarget" arg="11" />
+            <stringArg name="apiVersion" arg="2.0" />
+            <stringArg name="languageVersion" arg="2.0" />
+          </stringArguments>
+          <arrayArguments>
+            <arrayArg name="pluginClasspaths" />
+            <arrayArg name="pluginOptions">
+              <args>
+                <arg>plugin:androidx.compose.plugins.idea:enabled=true</arg>
+                <arg>plugin:androidx.compose.compiler.plugins.kotlin:sourceInformation=true</arg>
+              </args>
+            </arrayArg>
+          </arrayArguments>
+        </compilerArguments>
+      </configuration>
+    </facet>
+  </component>
+</module>
