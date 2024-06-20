@@ -102,8 +102,9 @@ fun BirdImageCell(imageItem: BirdImageItem) {
     KamelImage(
         resource = asyncPainterResource(
             stringResource(
-                Res.string.sebiDemoImageApi
-            ) + imageItem.path
+                Res.string.sebiDemoImageApi,
+                imageItem.path
+            )
         ),
         contentDescription = "${imageItem.category} by ${imageItem.author}",
         contentScale = ContentScale.Crop,
