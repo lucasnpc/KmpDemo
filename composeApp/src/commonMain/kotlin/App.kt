@@ -26,7 +26,10 @@ import dev.icerock.moko.mvvm.compose.getViewModel
 import dev.icerock.moko.mvvm.compose.viewModelFactory
 import io.kamel.image.KamelImage
 import io.kamel.image.asyncPainterResource
+import kmpdemo.composeapp.generated.resources.Res
+import kmpdemo.composeapp.generated.resources.sebiDemoImageApi
 import model.BirdImageItem
+import org.jetbrains.compose.resources.stringResource
 import org.jetbrains.compose.ui.tooling.preview.Preview
 
 @Composable
@@ -97,7 +100,11 @@ fun BirdsPage(viewModel: BirdsViewModel) {
 @Composable
 fun BirdImageCell(imageItem: BirdImageItem) {
     KamelImage(
-        resource = asyncPainterResource("https://sebi.io/demo-image-api/${imageItem.path}"),
+        resource = asyncPainterResource(
+            stringResource(
+                Res.string.sebiDemoImageApi
+            ) + imageItem.path
+        ),
         contentDescription = "${imageItem.category} by ${imageItem.author}",
         contentScale = ContentScale.Crop,
         modifier = Modifier.fillMaxWidth().aspectRatio(1.0f)
